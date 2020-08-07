@@ -12,6 +12,7 @@ i {
 }
 
 .grid-container-title {
+  padding-top: 35px;
   color: white;
   width: auto;
   flex-wrap: wrap;
@@ -25,6 +26,7 @@ i {
 .dog-image {
   width: calc(100% - 90%);
 }
+
 @media (max-width: 700px) {
   .dog-image {
     width: 100px;
@@ -37,20 +39,6 @@ i {
 
 .title-header {
   text-align: center;
-}
-
-.footer {
-  position: fixed;
-  display: flex;
-  align-items: center;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 30px;
-  background-color: mediumseagreen;
-  color: white;
-  padding-left: 30px;
-  text-align: start;
 }
 
 .grid-container-body {
@@ -74,4 +62,42 @@ i {
 
 .ballon {
   height: 60px;
+}
+
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 35px;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.top-icons {
+  width: 100px;
+  display: inline-grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  margin-bottom: 20px;
+}
+
+@media (max-width) {
+}
+
+.top {
+  background-color: black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 35px;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
 }
