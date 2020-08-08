@@ -91,7 +91,7 @@ i {
 .top {
   background-color: black;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   position: fixed;
   top: 0;
@@ -100,4 +100,10 @@ i {
   color: white;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.top-text {
+  padding-top: 15px;
+  color: white;
+  font-size: 10px;
 }
